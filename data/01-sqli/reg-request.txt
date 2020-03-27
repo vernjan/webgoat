@@ -1,0 +1,14 @@
+PUT http://localhost:8080/WebGoat/SqlInjectionAdvanced/challenge HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: */*
+Accept-Language: cs,sk;q=0.8,en-US;q=0.5,en;q=0.3
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 83
+Origin: http://localhost:8080
+Connection: keep-alive
+Referer: http://localhost:8080/WebGoat/start.mvc
+Cookie: JSESSIONID=neMKsCycQsJqGIPSavkwFwmbrF_0bNIambqrtrt5
+Host: localhost:8080
+
+username_reg=Tom&email_reg=qqq%40foo.bar&password_reg=qqq&confirm_password_reg=qqq
