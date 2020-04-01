@@ -9,3 +9,5 @@ Selected solutions for [OWASP WebGoat](https://owasp.org/www-project-webgoat/) (
     - [Authentication bypasses](02-broken-auth_bypasses.md)
     - [JWT tokens](02-broken-auth_jwt-tokens.md)
     - [Password reset](02-broken-auth_password-reset.md)
+- **(A4) XML External Entities (XXE)**
+    - [XXE](04-xxe.md)
