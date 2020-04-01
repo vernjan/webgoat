@@ -1,4 +1,4 @@
-# (A2) Broken Authentication (Password reset)
+# (A2) Password reset
 
 ## Lesson 6 - Password reset
 The idea is to intercept the password reset request and tamper the `Host` header. This header is used for creating

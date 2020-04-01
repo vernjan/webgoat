@@ -11,3 +11,5 @@ Selected solutions for [OWASP WebGoat](https://owasp.org/www-project-webgoat/) (
     - [Password reset](02-broken-auth_password-reset.md)
 - **(A4) XML External Entities (XXE)**
     - [XXE](04-xxe.md)
+- **(A5) Broken Access Control**
+    - [Insecure Direct Object References](05-idor.md)

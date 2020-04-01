@@ -1,4 +1,4 @@
-# (A2) Broken Authentication (Authentication bypasses)
+# (A2) Authentication bypasses
 
 ## Lesson 2 - Password reset
 Bypass security questions:

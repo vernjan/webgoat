@@ -1,4 +1,4 @@
-# (A2) Broken Authentication (JWT tokens)
+# (A2) JWT tokens
 
 ## Lesson 4 - JWT signing
 Login as Tom and grab the JWT token from `Set-Cookie` response header:
