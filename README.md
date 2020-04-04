@@ -14,3 +14,5 @@ Selected solutions for [OWASP WebGoat](https://owasp.org/www-project-webgoat/) (
     - [XXE](04-xxe.md)
 - **(A5) Broken Access Control**
     - [Insecure Direct Object References](05-idor.md)
+- **(A7) Cross-Site Scripting (XSS)**
+    - [Cross Site Scripting](07-xss.md)
