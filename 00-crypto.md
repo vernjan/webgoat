@@ -17,3 +17,19 @@ The assignment description is incomplete here, you must look into source code to
 $ openssl dgst -sha256 -sign data/00-crypto/id_rsa data/00-crypto/rsa_modulus.txt | base64 --wrap=0
 LK/k8SeLA2QanwTkRcrl4eoryraxSmrYk2t88ndZ9YhMZQmjTpGkq+HF19vRNQg3LQthlvJLL+Z0IGBYrHqnnq6cc8/JMPeTL6dco/V0QHqqea417G3sMKOeLRFQQJWRXTDwSMq86yFp4ytyphyB+vkj534BwNnFKPNl+aCSdjCfF8GSQeXRhuUH7Rw7QbuarL/59NXdrxFqkzY5fbNUyEvCJuxKB+ZwC1jN/8oF0/YAtsuVPKz2MfjtSMWN5F0OZ2XVq7L7jZGULY8ZL3tLBDPpIaDm9VFsNM/haPV2NYgkSJzevY0LAbgr3DdBA1Lxa3UykmCL0EnhrIOOriKcfA==
 ```
+
+## Lesson 8
+The secret file is located in `/root` but our container runs with `webgoat` user.
+However, it's very simple to change to `root` even without knowing the root's password:
+```
+$ docker run -d webgoat/assignments:findthesecret
+473372d0c71d8bdb9cf97f7e95082183016683e0fbd963608a977a650b3fc068
+
+$ docker exec -ti --user 0 473372d0c71d bash
+
+root@473372d0c71d:/# cat /root/default_secret
+ThisIsMySecretPassw0rdF0rY0u
+
+root@473372d0c71d:/# echo "U2FsdGVkX199jgh5oANElFdtCxIEvdEvciLi+v+5loE+VCuy6Ii0b+5byb5DXp32RPmT02Ek1pf55ctQN+DHbwCPiVRfFQamDmbHBUpD7as=" | openssl enc -aes-256-cbc -d -a -kfile /root/default_secret
+Leaving passwords in docker images is not so secure
+```
