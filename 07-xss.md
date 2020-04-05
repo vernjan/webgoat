@@ -1,4 +1,4 @@
-# Cross Site Scripting
+# (A7) Cross Site Scripting
 
 ## Lesson 10
 The test route is hidden in `js/view/GoatRouter.js`:
@@ -9,8 +9,7 @@ routes: {
         'lesson/:name/:pageNum': 'lessonPageRoute',
         'test/:param': 'testRoute',
         'reportCard': 'reportCard'
-    }
-
+}
 ...
 
 testRoute: function (param) {

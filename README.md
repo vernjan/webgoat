@@ -10,9 +10,8 @@ Selected solutions for [OWASP WebGoat](https://owasp.org/www-project-webgoat/) (
     - [Authentication bypasses](02-auth_bypasses.md)
     - [JWT tokens](02-jwt-tokens.md)
     - [Password reset](02-password-reset.md)
-- **(A4) XML External Entities (XXE)**
-    - [XXE](04-xxe.md)
+- **[(A4) XML External Entities (XXE)](04-xxe.md)**
 - **(A5) Broken Access Control**
     - [Insecure Direct Object References](05-idor.md)
-- **(A7) Cross-Site Scripting (XSS)**
-    - [Cross Site Scripting](07-xss.md)
+- **[(A7) Cross-Site Scripting (XSS)](07-xss.md)**
+- **[(A8) Insecure Deserialization](08-insecure-deser.md)**
