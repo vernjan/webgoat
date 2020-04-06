@@ -15,3 +15,11 @@ Selected solutions for [OWASP WebGoat](https://owasp.org/www-project-webgoat/) (
     - [Insecure Direct Object References](05-idor.md)
 - **[(A7) Cross-Site Scripting (XSS)](07-xss.md)**
 - **[(A8) Insecure Deserialization](08-insecure-deser.md)**
+- **[(A9) Vulnerable Components](09-vuln_components.md)**
+
+## General tips
+- Check out source code
+    - [WebGoat container](https://github.com/WebGoat/WebGoat/tree/develop/webgoat-container/src/main/java/org/owasp/webgoat)
+    - [Lessons](https://github.com/WebGoat/WebGoat/tree/develop/webgoat-lessons)
+- Peek into database, and if necessary (for example to overcome a bug), you can modify it
+    - Database is saved onto your disk under `c:\Users\USER\.webgoat-v8.0.0-SNAPSHOT\data\`
