@@ -1,6 +1,6 @@
 # (A5) Insecure Direct Object References
 
-## Lesson 5
+## Lesson 5 - Playing with the Patterns
 Edit another profile:
 ```
 PUT http://localhost:8080/WebGoat/IDOR/profile/2342388 HTTP/1.1

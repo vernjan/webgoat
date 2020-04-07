@@ -16,6 +16,10 @@ Selected solutions for [OWASP WebGoat](https://owasp.org/www-project-webgoat/) (
 - **[(A7) Cross-Site Scripting (XSS)](07-xss.md)**
 - **[(A8) Insecure Deserialization](08-insecure-deser.md)**
 - **[(A9) Vulnerable Components](09-vuln_components.md)**
+- **(A8:2013) Request Forgeries**
+    - [Cross-Site Request Forgeries](09-2018-csrf.md)
+- **Client side**
+    - [Client side filtering](cs_filtering.md)
 
 ## General tips
 - Check out source code

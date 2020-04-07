@@ -1,6 +1,6 @@
 # (A2) Authentication bypasses
 
-## Lesson 2 - Password reset
+## Lesson 2 - 2FA Password Reset
 Bypass security questions:
 ```
 secQuestion0=aaa&secQuestion1=bbb&jsEnabled=...

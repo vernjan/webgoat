@@ -1,6 +1,6 @@
 # (A7) Cross Site Scripting
 
-## Lesson 10
+## Lesson 10 - Identify potential for DOM-Based XSS
 The test route is hidden in `js/view/GoatRouter.js`:
 ```
 routes: {
@@ -20,7 +20,7 @@ testRoute: function (param) {
 
 So the answer is `start.mvc#test/`
 
-## Lesson 11
+## Lesson 11 - Try It! DOM-Based XSS
 `testHandler` is located in `js/controller/LessonController.js`:
 ```
 this.testHandler = function(param) {

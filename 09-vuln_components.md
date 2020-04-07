@@ -1,6 +1,6 @@
 # (A9) Vulnerable Components
 
-## Lesson 12
+## Lesson 12 - Exploiting CVE-2013-7285 (XStream)
 This lesson is a bit unclear. Basically, the goal is to exploit
 [CVE-2013-7285](https://nvd.nist.gov/vuln/detail/CVE-2013-7285). You can finish it with this payload:
 ```xml

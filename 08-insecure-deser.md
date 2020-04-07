@@ -1,6 +1,6 @@
 # (A8) Insecure Deserialization
 
-## Lesson 5
+## Lesson 5 - Let’s try
 WebGoat project contains a vulnerable class `VulnerableTaskHolder.java`. This is how
 you construct your payload:
 ```

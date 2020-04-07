@@ -1,6 +1,6 @@
 # (A4) XML External Entities (XXE)
 
-## Lesson 3
+## Lesson 3 - Let’s try
 Intercept the request and change the body to:
 ```
 # On Windows
@@ -14,10 +14,10 @@ Intercept the request and change the body to:
 <comment><text>&xxe;</text></comment>
 ```
 
-## Lesson 4
+## Lesson 4 - Modern REST framework
 The same as the previous lesson, just change request header `Content-Type` to `application/xml`.
 
-## Lesson 7
+## Lesson 7 - Blind XXE assignment
 DTD hosted in WebWolf (see [Parameter entities](https://www.tutorialspoint.com/dtd/dtd_entities.htm)):
 ```
 <?xml version="1.0" encoding="UTF-8"?>  

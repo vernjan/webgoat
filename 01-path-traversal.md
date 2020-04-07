@@ -1,6 +1,6 @@
 # (A1) Path traversal
 
-## Lesson 2
+## Lesson 2 - Path traversal while uploading files
 Upload the profile picture outside of the `{username}` folder:
 ```
 -----------------------------27260332916296986533744447080
@@ -10,7 +10,7 @@ Content-Disposition: form-data; name="fullName"
 
 ```
 
-## Lesson 3
+## Lesson 3 - Path traversal while uploading files
 The same as the previous lesson but this time the `fullName` is sanitized.
 However, the fix is not perfect: `fullName.replace("../", "")`.
 ```
@@ -20,7 +20,7 @@ Content-Disposition: form-data; name="fullNameFix"
 ....//test
 ```
 
-## Lesson 4
+## Lesson 4 - Path traversal while uploading files
 This time we must modify the original filename:
 ```
 -----------------------------1740053938349190302459631647
@@ -29,7 +29,7 @@ Content-Type: text/plain
 
 ```
 
-## Lesson 5
+## Lesson 5 - Retrieving other files with a path traversal
 Clicking on _Random picture_ sends this request:
 ```
 GET http://vernjan:8080/WebGoat/PathTraversal/random-picture

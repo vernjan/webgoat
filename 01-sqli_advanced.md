@@ -1,6 +1,6 @@
 # (A1) SQL Injection (advanced)
 
-## Lesson #3
+## Lesson #3 - Try It! Pulling data from other tables
 Retrieve all data from `user_system_data`
 ```sql
 CREATE TABLE user_data (userid int not null,
