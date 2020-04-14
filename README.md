@@ -4,7 +4,7 @@ Selected solutions for [OWASP WebGoat](https://owasp.org/www-project-webgoat/) (
 
 - **(A1) Injection**
     - [SQL Injection (advanced)](01-sqli_advanced.md)
-    - SQL Injection (mitigation)
+    - [SQL Injection (mitigation)](01-sqli_mitigation.md)
     - [Path traversal](01-path-traversal.md)
 - **(A2) Broken Authentication**
     - [Authentication bypasses](02-auth_bypasses.md)
